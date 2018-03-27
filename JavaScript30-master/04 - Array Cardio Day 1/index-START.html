@@ -120,6 +120,7 @@
     
     const vehicles = data.reduce((obj, item) => {
       // console.log(item);
+      // First we see if there is a '0' to work with, if not you need to make an entry for that 
       if(!obj[item]){
         obj[item] =0;
       }
